@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  font-family: "Microsoft JhengHei", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 80px;
+  font-style: italic;
+  line-height: 106px;
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 64px;
+  font-style: italic;
+  line-height: 84px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.social-media {
+  margin-top: 40px;
+}
+
+.header p {
+  text-align: left;
+}
+
+.about {
+  padding-top: 56px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 56px;
+}
+.about h2 {
+  margin-bottom: 40px;
+}
+.about img {
+  margin-bottom: 20px;
+}
+.about .info-1 {
+  margin: 0 auto;
+  width: 412px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 24px;
+  margin-bottom: 28px;
+  font-size: 20px;
+}
+.about .info-2 {
+  width: 412px;
+  margin: 0 auto;
+  line-height: 42px;
+}
+.about .info-2 .cilcle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #891818;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.banner {
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  height: 958px;
+  background-size: cover cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.banner img:hover {
+  opacity: 0.5;
+}
+.banner .social-media li {
+  margin-right: 16px;
+}
+
+.my-brand {
+  background-color: #000000;
+  padding-top: 56px;
+  padding-bottom: 160px;
+  color: white;
+  text-align: center;
+}
+.my-brand .info-1 {
+  margin-bottom: 32px;
+  line-height: 42px;
+}
+.my-brand .info-2 {
+  width: 320px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+.my-brand .brand-photo-1 {
+  margin-bottom: 40px;
+}
+.my-brand .brand-photo-2 {
+  margin-right: 24px;
+}
+
+.other-work {
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 144px;
+}
+.other-work li {
+  margin-right: 24px;
+}
+.other-work li p {
+  font-size: 20px;
+  line-height: 42px;
+  margin-top: 16px;
+}
+.other-work .last {
+  margin-right: 0;
+}
+.other-work .info {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+
+.footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
